@@ -2,6 +2,4 @@
 
 set -e
 
-APP_ROOT="/app"
-
-/usr/local/bundle/bin/rubocop $@
+/usr/local/bundle/bin/rubocop "$@"
