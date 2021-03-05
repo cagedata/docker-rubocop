@@ -1,7 +1,7 @@
-FROM ruby:2.3
+FROM ruby:3.0
 MAINTAINER "Dave Long <dlong@cagedata.com>"
 
-ARG version=0.43.0
+ARG version=1.11.0
 
 RUN gem install rubocop -v ${version}
 
